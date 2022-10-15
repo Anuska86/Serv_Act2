@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <!--
+    <form action="calculator.php" method="post" id="calculator">
+        <label for="fname">Operador1:</label>
+        <input type="number" value="operator1" name="operator1"><br><br>
+        <label for="lname">Operador2:</label>
+        <input type="number" value="operator2" name="operator2"><br><br>
+
+        <p>Por favor selecciona la operación a realizar:</p>
+  <input type="radio" id="sum" name="sum" value="+">
+  <label for="sum">Sumar +</label><br>
+  <input type="radio" id="substract" name="substract" value="-">
+  <label for="substract">Restar -</label><br>  
+  <input type="radio" id="multiply" name="multiply" value="x">
+  <label for="multiply">Multiplicar x</label><br>
+  <input type="radio" id="divide" name="divide" value="÷">
+  <label for="divide">Dividir ÷</label><br><br>
+  
+  
+      </form>
+      
+      
+      <button type="submit" form="numberform" value="Submit">Realizar operación</button>
+
+      -->
+
+      <form method="post">
+        <table align="center">
+            <tr>
+                <td><strong><?php echo $result; ?><strong></td>
+            </tr>
+            <tr>
+                <td>Operador1</td>
+                <td><input type="text" name="op1"></td>
+            </tr>
+        
+            <tr>
+                <td>Operador2</td>
+                <td><input type="text" name="op2"></td>
+            </tr>
+        
+            <tr>
+                <td>Selecciona una operación:</td>
+                <td>
+                    <input type="radio" id="sum" name="sum" value="+">
+                    <label for="sum">Sumar +</label><br>
+                    <input type="radio" id="substract" name="substract" value="-">
+                    <label for="substract">Restar -</label><br>  
+                    <input type="radio" id="multiply" name="multiply" value="x">
+                    <label for="multiply">Multiplicar x</label><br>
+                    <input type="radio" id="divide" name="divide" value="÷">
+                    <label for="divide">Dividir ÷</label><br><br>
+                </td>
+            </tr>
+        
+            <tr>
+                <td></td>
+                <td><input type="submit" name="submit" value="                Resultado               "></td>
+            </tr>
+        
+        </table>
+        </form>
+
+</body>
+</html>
